@@ -13,7 +13,7 @@ public class DropDown {
 		Thread.sleep(2000);
 	//driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
 		driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
-//hdljhgdghmj
+
 	}
 
 }
