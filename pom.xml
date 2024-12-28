@@ -16,13 +16,37 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
+    <scope>test</scope>
 </dependency>
+
+
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
     <version>2.18.0</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/io.swagger.codegen.v3/swagger-codegen-cli -->
+<dependency>
+    <groupId>io.swagger.codegen.v3</groupId>
+    <artifactId>swagger-codegen-cli</artifactId>
+    <version>3.0.45</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.36</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.echocat.java-stream-utils/java-stream-utils -->
+<dependency>
+    <groupId>org.echocat.java-stream-utils</groupId>
+    <artifactId>java-stream-utils</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
 
 
 
